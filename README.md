@@ -12,7 +12,7 @@ Don't reinvent the wheel when it comes to building your design.  Find examples t
 
 * [Html5up](https://html5up.net/) provides amazing free templates under a creative commons license that only requires attribution.
 
-## Content Layout
+## Content Layout Guides
 
 Content is anything your user will consume beyond navigation or headings.  Forms, paragraphs, instructions all fall into the content category.  
 
@@ -28,9 +28,11 @@ Content is anything your user will consume beyond navigation or headings.  Forms
 
 * Never center large portions of content
 
+* Avoid using drop shadows to frame content or text, if you do use one, make it extremely small
+
 ## Fonts
 
-```Rule: Pick 1 font for headings and 1 font for content```
+General Rule: Pick 1 font for headings and 1 font for content.  Keep it simple so the user can focus on your content.
 
 ### Sans-serif fonts
 
@@ -46,12 +48,9 @@ Use serf fonts for headings to add some flare to your site.  Avoid using serif f
 
 * [Merriweather](https://fonts.google.com/specimen/Merriweather)
 
-
-## White space matters
-
-* 
-
 ## Responsive Units
+
+Responsive units are a lot of fun to use, but some should be avoided unless you have extensive experience using them.  
 
 * Don't use `vw` and `vh` units unless you need some element to go full screen.  Example: using vh and vw for a full screen modal pop up would be good, but that's about it.
 
@@ -59,18 +58,24 @@ Use serf fonts for headings to add some flare to your site.  Avoid using serif f
 
 ## CSS Height
 
-* For height values let the content's box model fill the height instead of hard coding a height in.  Hard coded heights cause so many UI problems.
+For CSS height values, let the content's box model control your height instead of hard coding anything.  Hard coded heights can create nested vertical scroll bars instantly hurting your user experience.
 
-* Let the browser do the scrolling
+* Let the browser do the scrolling, don't use `overflow: hidden` to make up for CSS mistakes
 
 ## Mobile
 
-* Plan for mobile on day 1.  Set up your media queries to desktop or mobile first as a priority and not a last thought.
+Plan for mobile on day 1.  Set up your media queries to desktop or mobile first as a priority and not a last thought.  **You don't need mobile design to think about mobile code structure!**
 
-* When working with mobile layouts, stack everything vertically and provide at least 15px margin from the edge of your content to the edge of the device.
+* When working with mobile layouts: stack everything vertically
+
+* Provide at least 15px margin from the edge of your content to the edge of the device.
 
 ## Color
 
-* Pick a color scheme with good contrast - http://colorsafe.co/
+Color trends come and go. Currently we are in a flat and simple color trend across the internet.  Choose 2-3 colors and stick to them.
+
+* Pick a color scheme with good contrast, use [http://colorsafe.co](http://colorsafe.co/)
+
 * Don't use gradients
+
 * Do use solid / flat background colors
