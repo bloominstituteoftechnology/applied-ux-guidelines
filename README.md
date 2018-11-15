@@ -24,9 +24,9 @@ Content is anything your user will consume beyond navigation or headings.  Forms
 
 * Provide `line-height` of at least `1.25` to help your text breathe
 
-* Avoid centering anything longer than 3 to 4 words long
+* Avoid center-aligning any text more than 3 to 4 words long
 
-* Never center large portions of content
+* Never center-align large portions of text — stick to left-justified alignment.
 
 * Avoid using drop shadows to frame content or text, if you do use one, make it extremely small
 
@@ -36,7 +36,7 @@ General Rule: Pick 1 font for headings and 1 font for content.  Keep it simple s
 
 ### Sans-serif fonts
 
-Use a sans-serif font for content elements as it is easier to consume on digital devices.
+Use a sans-serif font for content elements as it is easier to read on digital devices.
 
 * [Roboto](https://fonts.google.com/specimen/Roboto)
 
@@ -44,7 +44,7 @@ Use a sans-serif font for content elements as it is easier to consume on digital
 
 ### Serif fonts
 
-Use serf fonts for headings to add some flare to your site.  Avoid using serif fonts for content as they are harder to consume on digital devices.
+Use serif fonts for headings to add some flare to your site.  Avoid using serif fonts for longer blocks of content as they are not as easy to read on digital devices.
 
 * [Merriweather](https://fonts.google.com/specimen/Merriweather)
 
@@ -64,7 +64,7 @@ For CSS height values, let the content's box model control your height instead o
 
 ## Mobile
 
-Plan for mobile on day 1.  Set up your media queries to desktop or mobile first as a priority and not a last thought.  **You don't need mobile design to think about mobile code structure!**
+Plan for mobile on day one.  Set up your media queries to desktop or mobile first as a priority and not a last thought.  **You don't need mobile design to think about mobile code structure!**
 
 * When working with mobile layouts: stack everything vertically
 
