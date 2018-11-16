@@ -1,6 +1,6 @@
 # Applied User Experience Guidelines
 
-These are some simple guidelines to create better looking websites and apps.  
+These are some simple guidelines to create better looking websites and apps. [Click here for a video walk through of these concepts](https://youtu.be/Ir58R46Owy4).
 
 ## General Design Ideas
 
